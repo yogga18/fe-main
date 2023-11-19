@@ -1,55 +1,35 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-79fa9a81c52e4a31.js",
-      "static/chunks/fd9d1056-2d151c0dc796168c.js",
-      "static/chunks/472-216b0e8f8b95424a.js",
-      "static/chunks/main-app-6a156755ac16e4e2.js",
-      "static/chunks/app/_not-found-c7555411b7b137ab.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-79fa9a81c52e4a31.js",
-      "static/chunks/fd9d1056-2d151c0dc796168c.js",
-      "static/chunks/472-216b0e8f8b95424a.js",
-      "static/chunks/main-app-6a156755ac16e4e2.js",
-      "static/chunks/305-a9907ddd45e2d297.js",
-      "static/css/61d3735fa6bbc7be.css",
-      "static/chunks/app/layout-1c411e2aea22c390.js"
-    ],
-    "/(auth)/login/page": [
-      "static/chunks/webpack-79fa9a81c52e4a31.js",
-      "static/chunks/fd9d1056-2d151c0dc796168c.js",
-      "static/chunks/472-216b0e8f8b95424a.js",
-      "static/chunks/main-app-6a156755ac16e4e2.js",
-      "static/chunks/app/(auth)/login/page-583ceea880a5a075.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack-79fa9a81c52e4a31.js",
-      "static/chunks/fd9d1056-2d151c0dc796168c.js",
-      "static/chunks/472-216b0e8f8b95424a.js",
-      "static/chunks/main-app-6a156755ac16e4e2.js",
-      "static/chunks/app/contact/page-b803a878d03ebdd5.js"
-    ],
-    "/(auth)/register/page": [
-      "static/chunks/webpack-79fa9a81c52e4a31.js",
-      "static/chunks/fd9d1056-2d151c0dc796168c.js",
-      "static/chunks/472-216b0e8f8b95424a.js",
-      "static/chunks/main-app-6a156755ac16e4e2.js",
-      "static/chunks/app/(auth)/register/page-43a60e637e412959.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/layanan/page": [
-      "static/chunks/webpack-79fa9a81c52e4a31.js",
-      "static/chunks/fd9d1056-2d151c0dc796168c.js",
-      "static/chunks/472-216b0e8f8b95424a.js",
-      "static/chunks/main-app-6a156755ac16e4e2.js",
-      "static/chunks/app/layanan/page-52e9a87683df5a3b.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/layanan/page.js"
     ],
-    "/page": [
-      "static/chunks/webpack-79fa9a81c52e4a31.js",
-      "static/chunks/fd9d1056-2d151c0dc796168c.js",
-      "static/chunks/472-216b0e8f8b95424a.js",
-      "static/chunks/main-app-6a156755ac16e4e2.js",
-      "static/chunks/app/page-f19e4d983cbf4e59.js"
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contact/page.js"
+    ],
+    "/(auth)/register/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/register/page.js"
+    ],
+    "/(auth)/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/login/page.js"
     ]
   }
 }
