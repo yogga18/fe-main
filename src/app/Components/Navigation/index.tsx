@@ -17,7 +17,7 @@ const NavigationBar = () => {
       <div className='bg-blue-300 flex justify-between items-center px-3 h-16'>
         <div>
           <Link href='/'>
-            <span className='text-2xl font-bold text-white'>Logo</span>
+            <h5 className='text-2xl font-bold text-white'>Logo</h5>
           </Link>
         </div>
         <div className='hidden md:flex'>
