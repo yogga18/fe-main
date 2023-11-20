@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Register = () => {
   return (
-    <div className='w-3/4 m-auto'>
+    <div className='w-1/2 m-auto'>
       <form className='my-10 shadow-md p-5'>
         <div className='grid md:grid-cols-2 md:gap-6'>
           <div className='relative z-0 w-full mb-6 group'>
@@ -86,6 +87,13 @@ const Register = () => {
             Confirm password
           </label>
         </div>
+
+        <p className='text-end text-xs mb-5'>
+          If you already have an account, please{' '}
+          <Link href='/login' className='text-blue-600 font-bold'>
+            Sign In
+          </Link>
+        </p>
 
         <button
           type='submit'

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Login = () => {
   return (
     <div className='w-1/2 m-auto'>
@@ -34,6 +36,13 @@ const Login = () => {
             Password
           </label>
         </div>
+        <p className='text-end text-xs mb-5'>
+          If you dont have an account, please{' '}
+          <Link href='/register' className='text-blue-600 font-bold'>
+            Sign Up
+          </Link>{' '}
+          first.
+        </p>
 
         <button
           type='submit'

@@ -1,9 +1,10 @@
 import React from 'react';
+import Feature from '../Components/Feature/Feature';
 
 const Layanan = () => {
   return (
     <div>
-      <h1>Layanan</h1>
+      <Feature />
     </div>
   );
 };

@@ -1,7 +1,9 @@
 {
-  "/layanan/page": "app/layanan/page.js",
-  "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
+  "/_not-found": "app/_not-found.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
   "/(auth)/register/page": "app/(auth)/register/page.js",
-  "/(auth)/login/page": "app/(auth)/login/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/layanan/page": "app/layanan/page.js",
+  "/page": "app/page.js"
 }

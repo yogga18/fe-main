@@ -1,4 +1,7 @@
 import type { Metadata } from 'next';
+import Feature from './Components/Feature/Feature';
+import Hero from './Components/Hero/Hero';
+import Kontak from './Components/Kontact/Kontak';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -7,8 +10,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className='w-full h-screen'>
-      <p>landing</p>
-    </div>
+    <>
+      <Hero />
+      <Feature />
+      <Kontak />
+    </>
   );
 }
