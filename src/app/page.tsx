@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
-import Accordion from './Components/Faq/Accordion';
 import Feature from './Components/Feature/Feature';
+import ProductLanding from './Components/Feature/ProductLanding';
 import Hero from './Components/Hero/Hero';
 import Kontak from './Components/Kontact/Kontak';
 
@@ -14,8 +14,8 @@ export default function Home() {
     <>
       <Hero />
       <Feature />
+      <ProductLanding />
       <Kontak />
-      <Accordion />
     </>
   );
 }
