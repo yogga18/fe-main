@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
                   href='#'
                   className='text-gray-700 transition hover:opacity-75'
                 >
-                  Web Development
+                  Saving For Your Plan
                 </a>
               </li>
               <li>
@@ -21,7 +22,7 @@ const Footer = () => {
                   href='#'
                   className='text-gray-700 transition hover:opacity-75'
                 >
-                  Mobile App Development
+                  Frugal Living
                 </a>
               </li>
               <li>
@@ -29,7 +30,7 @@ const Footer = () => {
                   href='#'
                   className='text-gray-700 transition hover:opacity-75'
                 >
-                  UI/UX Design
+                  Learn How Money Works
                 </a>
               </li>
             </ul>
@@ -126,22 +127,16 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='mt-12 border-t border-gray-200 pt-8'>
-          <div className='flex flex-wrap gap-4 text-xs'>
-            <a href='#' className='text-gray-500 transition hover:opacity-75'>
-              Terms & Conditions
-            </a>
-            <a href='#' className='text-gray-500 transition hover:opacity-75'>
-              Privacy Policy
-            </a>
-            <a href='#' className='text-gray-500 transition hover:opacity-75'>
-              Cookies
-            </a>
-          </div>
-
-          <p className='mt-8 text-xs text-gray-500'>
-            &copy; {new Date().getFullYear()}. Company Name. All rights
-            reserved.
+        <div className='mt-8 border-t border-gray-200 pt-8'>
+          <p className='text-xs text-gray-500 text-center'>
+            &copy; {new Date().getFullYear()}. Build with 💖 by{' '}
+            <Link
+              href={'https://web-personal-five.vercel.app/'}
+              className='text-blue-500 font-bold'
+              target='_blank'
+            >
+              Yogga
+            </Link>
           </p>
         </div>
       </div>

@@ -5,6 +5,9 @@ import Accordion from '../Faq/Accordion';
 const ProductLanding = () => {
   return (
     <>
+      <p className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mb-10'>
+        Our <b className='text-blue-500'>Product</b>
+      </p>
       <div className='flex flex-wrap justify-center align-middle gap-3'>
         <div className='card card-compact w-full mx-5 md:w-2/6 bg-base-100 shadow-xl'>
           <figure>
