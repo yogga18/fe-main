@@ -3,7 +3,7 @@ import React from 'react';
 
 const Register = () => {
   return (
-    <div className='w-1/2 m-auto'>
+    <div className='w-5/6 md:w-1/2 m-auto'>
       <form className='my-10 shadow-md p-5'>
         <div className='grid md:grid-cols-2 md:gap-6'>
           <div className='relative z-0 w-full mb-6 group'>

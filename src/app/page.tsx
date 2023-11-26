@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Accordion from './Components/Faq/Accordion';
 import Feature from './Components/Feature/Feature';
 import Hero from './Components/Hero/Hero';
 import Kontak from './Components/Kontact/Kontak';
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Feature />
       <Kontak />
+      <Accordion />
     </>
   );
 }
