@@ -1,6 +1,24 @@
-import React from 'react';
+'use client';
+import useUnitUTStore from '@/store/unit';
+import React, { useEffect } from 'react';
 
 const Kontak = () => {
+  const { UnitUT, UsersUT, getUnitUT, getUsersUT } = useUnitUTStore();
+
+  useEffect(() => {
+    // getUnitUT().then((res) => {
+    //   console.log('res', res);
+    // });
+    // getUsersUT().then((res) => {
+    //   console.log('res', res);
+    // });
+    getUnitUT();
+    getUsersUT();
+  }, []);
+
+  console.log('UnitUT', UnitUT);
+  console.log('UsersUT', UsersUT);
+
   return (
     <div className='isolate bg-blue-300 px-6 py-24 sm:py-32 lg:px-8'>
       <div className='mx-auto max-w-2xl text-center'>
