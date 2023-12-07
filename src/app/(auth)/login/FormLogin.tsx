@@ -33,10 +33,12 @@ const FormLogin = () => {
     };
 
     postLogin(payload).then((response) => {
+      // console.log('response', response);
       if (response.success) {
+        // save resposne to localstorage
+        // localStorage.setItem("authUser", JSON.stringify(response.data));
         location.reload();
       }
-      console.log('response', response);
     });
   };
 

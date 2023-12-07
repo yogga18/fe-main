@@ -1,6 +1,5 @@
 import apiInstance from '@/utils/axiosInstances';
 import create from 'zustand';
-import utilities from '../../utils/utilities';
 
 interface ILoginAuth {
   username: string;
@@ -56,8 +55,6 @@ const useStoreUser = create<StoreUser>((set) => ({
         'https://api.moneytalks.my.id/api/v1/auth/login',
         payload
       );
-
-      console.log('res', response);
 
       const data: ILoginAuth = response.data;
       if (response.status === 200) {

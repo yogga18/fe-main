@@ -1,4 +1,5 @@
 import CryptoJS from 'crypto-js';
+import jwt from 'jsonwebtoken';
 
 export const SECRET_KEY: string = 'SECRET_KEY';
 
