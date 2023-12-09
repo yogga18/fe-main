@@ -51,6 +51,10 @@ const useStoreUser = create<StoreUser>((set) => ({
     });
 
     try {
+      // const response = await apiInstance.post(
+      //   'http://localhost:8080/api/v1/auth/login',
+      //   payload
+      // );
       const response = await apiInstance.post(
         'https://api.moneytalks.my.id/api/v1/auth/login',
         payload
@@ -91,6 +95,10 @@ const useStoreUser = create<StoreUser>((set) => ({
     });
 
     try {
+      // const response = await apiInstance.post(
+      //   'http://localhost:8080/api/v1/auth/logout',
+      //   payload
+      // );
       const response = await apiInstance.post(
         'https://api.moneytalks.my.id/api/v1/auth/logout',
         payload
