@@ -11,7 +11,7 @@ export function middleware(request: NextRequest) {
 
   const tokenInBrowser: any = request.cookies.get('userAuth')?.value;
 
-  console.log('tokenInBrowser', tokenInBrowser);
+  // console.log('tokenInBrowser', tokenInBrowser);
 
   const handleDecode = () => {
     if (tokenInBrowser !== undefined) {
@@ -20,7 +20,7 @@ export function middleware(request: NextRequest) {
       try {
         const decoded = jwt.decode(tokenInBrowserJSON.data);
 
-        console.log('decoded', decoded);
+        // console.log('decoded', decoded);
       } catch (error) {
         console.error('Gagal mendekode token:', error);
       }
