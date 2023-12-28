@@ -8,30 +8,6 @@ const NavigationBar = () => {
   const pathname = usePathname();
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
-  // Mendapatkan nilai cookie dengan nama 'userAuth'
-  // const cookies = document?.cookie;
-  // const userAuthCookie = cookies
-  //   .split('; ')
-  //   .find((cookie) => cookie.startsWith('userAuth='));
-
-  // // Jika cookie ditemukan, kita mengonversinya menjadi objek
-  // if (userAuthCookie) {
-  //   const userAuthValue = userAuthCookie.split('=')[1];
-  //   const userAuthObject = JSON.parse(decodeURIComponent(userAuthValue));
-
-  //   // Sekarang, userAuthObject berisi nilai dari cookie dalam bentuk objek JavaScript
-  //   console.log(userAuthObject);
-
-  //   // Contoh akses properti dalam objek
-  //   const username = userAuthObject.username;
-  //   const token = userAuthObject.data;
-
-  //   console.log('Username:', username);
-  //   console.log('Token:', token);
-  // } else {
-  //   console.log('Cookie userAuth tidak ditemukan.');
-  // }
-
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen);
   };

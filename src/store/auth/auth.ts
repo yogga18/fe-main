@@ -51,10 +51,6 @@ const useStoreUser = create<StoreUser>((set) => ({
     });
 
     try {
-      // const response = await apiInstance.post(
-      //   'http://localhost:8080/api/v1/auth/login',
-      //   payload
-      // );
       const response = await apiInstance.post(
         'https://api.moneytalks.my.id/api/v1/auth/login',
         payload
@@ -63,6 +59,7 @@ const useStoreUser = create<StoreUser>((set) => ({
       const data: ILoginAuth = response.data;
       if (response.status === 200) {
         document.cookie = `userAuth=${JSON.stringify(response.data)}`;
+        // localStorage.setItem('user', JSON.stringify(response.data));
       }
 
       set({
@@ -95,10 +92,6 @@ const useStoreUser = create<StoreUser>((set) => ({
     });
 
     try {
-      // const response = await apiInstance.post(
-      //   'http://localhost:8080/api/v1/auth/logout',
-      //   payload
-      // );
       const response = await apiInstance.post(
         'https://api.moneytalks.my.id/api/v1/auth/logout',
         payload
@@ -107,6 +100,7 @@ const useStoreUser = create<StoreUser>((set) => ({
       const data = response.data;
 
       if (response.status === 200) {
+        document.cookie = `userAuth=`;
         localStorage.removeItem('user');
       }
 
