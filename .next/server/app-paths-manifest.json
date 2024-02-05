@@ -1,6 +1,11 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js",
+  "/(pages)/profile/page": "app/(pages)/profile/page.js",
+  "/(pages)/contact/page": "app/(pages)/contact/page.js",
   "/(pages)/(auth)/login/page": "app/(pages)/(auth)/login/page.js",
-  "/page": "app/page.js",
+  "/(pages)/layanan/page": "app/(pages)/layanan/page.js",
+  "/(pages)/(auth)/register/page": "app/(pages)/(auth)/register/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js"
+  "/page": "app/page.js"
 }
